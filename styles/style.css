@@ -12,11 +12,24 @@ main,section{
 
 
 /* heading */
+
 .heading{
-    margin: 3%;
+    padding: .5% 3%;
+    background-color: lightblue;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    z-index: 2;
+}
+
+.heading:hover{
+    cursor: pointer;
+    color: red;
+    transition: color .4s;
 }
 
 nav>ul {
@@ -38,6 +51,13 @@ nav>ul>li>a{
     border-radius: 3px;
     padding: 3px 5px;
 }
+nav>ul>li>a:hover{
+    background: #E02C6D;
+    border-radius: 10px;
+    transition: font-size .2s;
+    font-size: 30px;
+    padding: 10px 20px;
+}
 
 h1{
     font-size: 40px;
@@ -45,12 +65,14 @@ h1{
 
 /* main section */
 main{
+    margin-top: 8%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding-top: 1%;
     align-items: center;
 
 }
+
 
 .upper-left-part{
     padding-right: 30px;
@@ -63,7 +85,7 @@ main{
     padding-top: 10px;
     font-size: 20px;
 }
-.upper-left-part>button{
+.btn{
     margin-top: 30px;
     padding: 10px 24px;
     background: #E02C6D;
@@ -73,8 +95,18 @@ main{
     border: 1px solid grey;
     color: white;
 }
+.btn:hover{
+    cursor: pointer;
+    font-size: 30px;
+    transition: font-size 1s ease-in-out;
+}
 .upper-right-part{
     padding-left: 120px;
+}
+.upper-right-part:hover{
+    transform: rotate(360deg);
+    transform-origin: center;
+    transition: transform 4s ease-in-out;
 }
 .fas{
     padding-left: 5px;
@@ -84,6 +116,7 @@ main{
     position: absolute;
     margin-left: -460px;
     margin-top: 40px;
+    z-index: 1;
 }
 
 /* logo */
@@ -101,6 +134,8 @@ hr{
 }
 .logo>img:hover{
     cursor: pointer;
+    width: 150px;
+    transition: width 5s ease;
 }
 
 /* products */
@@ -135,6 +170,25 @@ section> .gallery{
 section> .gallery h2{
     padding-top: 16px;
     padding-bottom: 6px;
+    font-size: 35px;
+}
+
+.gallery p{
+    font-size: 23px;
+    color: orangered;
+}
+.gallery .product .star .fas{
+    color: gold;
+    margin: 0;
+    padding: 10px 4px 10px 0px;
+}
+.see-more{
+    position: relative;
+}
+.see-more .btn{
+    position: absolute;
+    top: -60px;
+    right: 90px;
 }
 
 /* footer */
