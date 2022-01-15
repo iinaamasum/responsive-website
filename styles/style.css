@@ -1,9 +1,13 @@
 /***********************\
        Common 
 \***********************/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 main,section{
@@ -74,6 +78,7 @@ nav>ul>li>a:hover{
 
 h1{
     font-size: 40px;
+    font-family: 'PT Mono', monospace;
 }
 
 /***********************\
@@ -404,10 +409,7 @@ footer>h2{
     .contact h1{
         text-align: left;
     }
-    .pic-form img{
-        width: 430px;
-    }
-
+    
     .pic-form{
         padding-left: 0px;
         margin-left: 0px;
@@ -418,8 +420,8 @@ footer>h2{
         margin-right: 30%;
     }
     .form-image{
-        width: 70%;
-        margin-right: 30%;
+        width: 55%;
+        margin-right: 45%;
     }
     fieldset{
         padding: 2px;
