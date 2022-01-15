@@ -313,7 +313,7 @@ footer>h2{
     /* left part */
     .upper-left-part{
         padding-left: 7%;
-        padding-right: 10%;
+        text-align: justify;
     }
     .upper-left-part>h1 {
         font-size: 40px;
@@ -324,8 +324,7 @@ footer>h2{
 
     /* right image */
     .upper-right-part{
-        padding-left: 5%;
-        padding-right: 10%;
+        padding-left: 7%;
     }
     .upper-right-part:hover{
         transition: none;
@@ -353,17 +352,22 @@ footer>h2{
         font-size: 40px;
         padding-top: 30px;
         padding-bottom: 30px;
-        text-align: left;
     }
 
     section> .gallery {
         display: block;
-        align-items: center;
         margin: 0px;
+    }
+    .product{
+        width: 93%;
+        margin-right: 5%;
+    }
+    .gallery .product img{
+        width: 100%;
     }
 
     .see-more .btnn{
-        /* text-align: center; */
+        cursor: pointer;
         top: -25px;
         right: 150px;
     }
@@ -372,7 +376,7 @@ footer>h2{
         text-align: left;
     }
     .pic-form img{
-        width: 330px;
+        width: 430px;
     }
 
     .pic-form{
@@ -388,29 +392,16 @@ footer>h2{
         width: 70%;
         margin-right: 30%;
     }
-    .opinion> #null{
-        width: 140px;
-    }
     fieldset{
         padding: 2px;
     }
-    .all-info p{
-        font-size: 16px;
-    }
-     .all-info input{
-        width: 150px;
-    }
-
 }
 
 
 
 /* for tablet */
 
-@media (min-width: 500px) and (max-width: 980px) {
-    *{
-        /* width: 87%; */
-    }
+@media (min-width: 481px) and (max-width: 980px) {
     .heading{
         display: none;
     }
