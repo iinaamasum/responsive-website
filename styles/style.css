@@ -60,7 +60,6 @@ nav>ul>li>a{
     font-size: 20px;
     font-weight: 800;
     color: black;
-    /* background-color: rgba(255, 68, 0, 0.462); */
     border-radius: 3px;
     padding: 3px 5px;
 }
@@ -289,8 +288,14 @@ footer>h2{
 \***********************/
 
 @media only screen and (max-width: 480px){
+    
     .heading{
-        display: none;
+        position: relative;
+        flex-direction: column;
+    }
+    nav>ul{
+        flex-direction: column;
+        text-align: center;
     }
     *{
         margin: 0;
