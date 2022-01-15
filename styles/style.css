@@ -66,7 +66,8 @@ nav>ul>li>a{
 nav>ul>li>a:hover{
     background: #E02C6D;
     border-radius: 10px;
-    transition: font-size .2s;
+    transform: scale(1.5);
+    transition: transform .2s ease-in-out;
     font-size: 30px;
     padding: 10px 20px;
 }
@@ -115,8 +116,7 @@ main{
     padding-left: 120px;
 }
 .upper-right-part:hover{
-    transform: rotate(360deg);
-    transform-origin: center;
+    transform: scale(1.5);
     transition: transform 4s ease-in-out;
 }
 .fas{
@@ -147,8 +147,8 @@ hr{
 }
 .logo>img:hover{
     cursor: pointer;
-    width: 150px;
-    transition: width 5s ease;
+    transform: scale(2.5);
+    transition: transform 1s ease-in-out;
 }
 
 /***********************\
@@ -315,7 +315,7 @@ footer>h2{
     .btn:hover{
         font-size: 25px;
     }
-
+    
     .see-more .btnn{
         font-size: 30px;
     }
@@ -356,6 +356,7 @@ footer>h2{
     }
     .upper-right-part:hover{
         transition: none;
+        transform: none;
     }
     .upper-right-part img{
         justify-content: center;
@@ -432,10 +433,7 @@ footer>h2{
 \***********************/
 
 @media (min-width: 481px) and (max-width: 980px) {
-    .heading{
-        display: none;
-    }
-
+   
     section>.gallery{
         grid-template-columns:repeat(2,1fr);
     }
