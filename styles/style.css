@@ -189,6 +189,7 @@ section> .gallery h2{
     position: relative;
 }
 .see-more .btnn{
+    cursor: pointer;
     position: absolute;
     top: -40px;
     right: 80px;
@@ -371,7 +372,7 @@ footer>h2{
         text-align: left;
     }
     .pic-form img{
-        width: 350px;
+        width: 330px;
     }
 
     .pic-form{
@@ -388,13 +389,17 @@ footer>h2{
         margin-right: 30%;
     }
     .opinion> #null{
-        width: 150px;
+        width: 140px;
     }
     fieldset{
         padding: 2px;
     }
-
-    
+    .all-info p{
+        font-size: 16px;
+    }
+     .all-info input{
+        width: 150px;
+    }
 
 }
 
