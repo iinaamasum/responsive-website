@@ -276,12 +276,7 @@ footer>h2{
         margin: 0;
         padding: 0;
     }
-    main, section{
-        width: 90%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
+    
     h1{
         font-size: 40px;
     }
@@ -307,6 +302,9 @@ footer>h2{
     }
 
     /* left part */
+    .upper-left-part{
+        padding-left: 5%;
+    }
     .upper-left-part>h1 {
         font-size: 40px;
     }
@@ -316,7 +314,7 @@ footer>h2{
 
     /* right image */
     .upper-right-part{
-        padding-left: 0px;
+        padding-left: 5%;
     }
     .upper-right-part:hover{
         transition: none;
@@ -379,13 +377,18 @@ footer>h2{
     }
     .info .btn{
         position: absolute;
-        top: 300px;
+        top: 310px;
     }
     .opinion p{
         padding-left: 35px;
     }
 
+}
 
 
 
+/* for tablet */
+
+@media only screen and (max-width: 980px) {
+    
 }
