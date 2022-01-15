@@ -293,6 +293,10 @@ footer>h2{
         font-size: 25px;
     }
 
+    .see-more .btnn{
+        font-size: 30px;
+    }
+
     section,main{
         width: 90%;
         margin-left: 5%;
@@ -307,7 +311,8 @@ footer>h2{
 
     /* left part */
     .upper-left-part{
-        padding-left: 8%;
+        padding-left: 7%;
+        padding-right: 10%;
     }
     .upper-left-part>h1 {
         font-size: 40px;
@@ -318,7 +323,8 @@ footer>h2{
 
     /* right image */
     .upper-right-part{
-        padding-left: 8%;
+        padding-left: 5%;
+        padding-right: 10%;
     }
     .upper-right-part:hover{
         transition: none;
@@ -361,8 +367,11 @@ footer>h2{
         right: 150px;
     }
     
+    .contact h1{
+        text-align: left;
+    }
     .pic-form img{
-        width: 380px;
+        width: 350px;
     }
 
     .pic-form{
@@ -371,12 +380,12 @@ footer>h2{
         flex-direction: column;
     }
     .form-div{
-        width: 90%;
-        margin-right: 10%;
+        width: 70%;
+        margin-right: 30%;
     }
     .form-image{
-        width: 90%;
-        margin-right: 10%;
+        width: 70%;
+        margin-right: 30%;
     }
     .opinion> #null{
         width: 150px;
