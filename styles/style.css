@@ -293,7 +293,11 @@ footer>h2{
         font-size: 25px;
     }
 
-
+    section,main{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
     main{
         display: flex;
@@ -303,7 +307,7 @@ footer>h2{
 
     /* left part */
     .upper-left-part{
-        padding-left: 5%;
+        padding-left: 8%;
     }
     .upper-left-part>h1 {
         font-size: 40px;
@@ -314,7 +318,7 @@ footer>h2{
 
     /* right image */
     .upper-right-part{
-        padding-left: 5%;
+        padding-left: 8%;
     }
     .upper-right-part:hover{
         transition: none;
@@ -356,32 +360,32 @@ footer>h2{
         top: -25px;
         right: 150px;
     }
-
-
-    .contact>h1{
-        text-align: left;
+    
+    .pic-form img{
+        width: 380px;
     }
+
     .pic-form{
-        display: inline;
-    }
-    .contact img{
-        width: 300px;
-    }
-    .all-info{
-        display: flex;
+        padding-left: 0px;
+        margin-left: 0px;
         flex-direction: column;
-        width: 300px;
     }
-    .info{
-        position: relative;
+    .form-div{
+        width: 90%;
+        margin-right: 10%;
     }
-    .info .btn{
-        position: absolute;
-        top: 310px;
+    .form-image{
+        width: 90%;
+        margin-right: 10%;
     }
-    .opinion p{
-        padding-left: 35px;
+    .opinion> #null{
+        width: 150px;
     }
+    fieldset{
+        padding: 2px;
+    }
+
+    
 
 }
 
@@ -389,7 +393,7 @@ footer>h2{
 
 /* for tablet */
 
-@media only screen and (max-width: 980px) {
+@media (min-width: 500px) and (max-width: 980px) {
     *{
         /* width: 87%; */
     }
