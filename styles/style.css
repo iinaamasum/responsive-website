@@ -80,15 +80,12 @@ main{
 }
 
 
-.upper-left-part{
-    padding-right: 30px;
-}
 
 .upper-left-part>h1{
     font-size: 60px;
 }
 .upper-left-part >p{
-    padding-top: 10px;
+    padding-top: 3%;
     font-size: 20px;
 }
 .btn{
@@ -191,10 +188,13 @@ section> .gallery h2{
 .see-more{
     position: relative;
 }
-.see-more .btn{
+.see-more .btnn{
     position: absolute;
-    top: -60px;
-    right: 90px;
+    top: -40px;
+    right: 80px;
+    color: #E02C6D;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 /* contact */
@@ -272,5 +272,120 @@ footer>h2{
     .heading{
         display: none;
     }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main, section{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+
+
+    .btn{
+        font-size: 1rem;
+        margin-top: 20px;
+        padding: 10px 25px;
+        display: inline;
+    }
+    .btn:hover{
+        font-size: 25px;
+    }
+
+
+
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    /* left part */
+    .upper-left-part>h1 {
+        font-size: 40px;
+    }
+    .upper-left-part span{
+        font-size: 40px!important;
+    }
+
+    /* right image */
+    .upper-right-part{
+        padding-left: 0px;
+    }
+    .upper-right-part:hover{
+        transition: none;
+    }
+    .upper-right-part img{
+        justify-content: center;
+        padding-top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .camera{
+        position: absolute;
+        margin-left: -290px;
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .logo{
+        display: none;
+    }
     
+
+    section>h1{
+        font-size: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: left;
+    }
+
+    section> .gallery {
+        display: block;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .see-more .btnn{
+        /* text-align: center; */
+        top: -25px;
+        right: 150px;
+    }
+
+
+    .contact>h1{
+        text-align: left;
+    }
+    .pic-form{
+        display: inline;
+    }
+    .contact img{
+        width: 300px;
+    }
+    .all-info{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .info{
+        position: relative;
+    }
+    .info .btn{
+        position: absolute;
+        top: 300px;
+    }
+    .opinion p{
+        padding-left: 35px;
+    }
+
+
+
+
 }
